@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8831ef1906.js" crossorigin="anonymous"></script>
+   <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css">  
+<title>CERCA</title> 
+</head>
+
+<body>
+  <header>
+      
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <img src="imgs/logosito.png" class="logosito">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars" style="color: #e47c24;"></i>
+        
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="cerca.html">Cerca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Documentazione.html">Documentazione</a>
+          </li>
+          <form class="form-inline mt-2 mt-md-0">
+            <a class="btn btn-primary btn-lg" id="login-menu"href="login.html" role="button">Accedi/Registrati</a>
+          </form>
+        </ul>
+       
+      </div>
+    </nav>
+   
+  </header>
+
+    <main>
+      <div id="header_cerca">
+        <h1 class="main_cerca">Cerca i componenti della tua band</h1>
+        <p class="main_cerca main_cerca_testo">inserisci le tue preferenze per facilitare la ricerca*</p>
+      </div>
+      <div>
+
+        <form>
+            <div class="form-group età titoli">
+              <label for="exampleFormControlSelect1">Età</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>18-23</option>
+                <option>23-28</option>
+                <option>28-33</option>
+                <option>33-35</option>
+                <option>35-40</option>
+              </select>
+            </div>
+
+            <div class="titoli">Quali componenti cerchi</div>
+      <div class="form-group row">
+
+        <div class="col-sm-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Chitarra</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Tastiera</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Batteria</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Cantante</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Basso</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Dj</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Tromba</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Violino</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Sassofono</label>
+            
+            <input class="form-control" type="text" placeholder="Altro...">
+
+          </div>
+        </div>
+      </div>
+      <div class="titoli">Genere musicale</div>
+      <div class="form-group row">
+        
+        <div class="col-sm-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Pop</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Rock</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Jazz</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Classico</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Indie</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Raggae</label>
+            <input class="form-control" type="text" placeholder="Altro...">
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="titoli">Livello di esperienza</div>
+      <div class="form-group row">
+
+        <div class="col-sm-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Principiante</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Base</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Intermedio</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Avanzato</label>
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">Professionista</label>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="form-group row">
+        <label class=" col-sm-12 col-form-label titoli">Seleziona la Provincia che preferisci</label>
+        <div class="col-sm-12 provincia"> 
+        <select id="province" class="form-group row ">
+          <option value="”ag”">Agrigento</option>
+          <option value="”al”">Alessandria</option>
+          <option value="”an”">Ancona</option>
+          <option value="”ao”">Aosta</option>
+          <option value="”ar”">Arezzo</option>
+          <option value="”ap”">Ascoli Piceno</option>
+          <option value="”at”">Asti</option>
+          <option value="”av”">Avellino</option>
+          <option value="”ba”">Bari</option>
+          <option value="”bt”">Barletta-Andria-Trani</option>
+          <option value="”bl”">Belluno</option>
+          <option value="”bn”">Benevento</option>
+          <option value="”bg”">Bergamo</option>
+          <option value="”bi”">Biella</option>
+          <option value="”bo”">Bologna</option>
+          <option value="”bz”">Bolzano</option>
+          <option value="”bs”">Brescia</option>
+          <option value="”br”">Brindisi</option>
+          <option value="”ca”">Cagliari</option>
+          <option value="”cl”">Caltanissetta</option>
+          <option value="”cb”">Campobasso</option>
+          <option value="”ci”">Carbonia-Iglesias</option>
+          <option value="”ce”">Caserta</option>
+          <option value="”ct”">Catania</option>
+          <option value="”cz”">Catanzaro</option>
+          <option value="”ch”">Chieti</option>
+          <option value="”co”">Como</option>
+          <option value="”cs”">Cosenza</option>
+          <option value="”cr”">Cremona</option>
+          <option value="”kr”">Crotone</option>
+          <option value="”cn”">Cuneo</option>
+          <option value="”en”">Enna</option>
+          <option value="”fm”">Fermo</option>
+          <option value="”fe”">Ferrara</option>
+          <option value="”fi”">Firenze</option>
+          <option value="”fg”">Foggia</option>
+          <option value="”fc”">Forli’-Cesena</option>
+          <option value="”fr”">Frosinone</option>
+          <option value="”ge”">Genova</option>
+          <option value="”go”">Gorizia</option>
+          <option value="”gr”">Grosseto</option>
+          <option value="”im”">Imperia</option>
+          <option value="”is”">Isernia</option>
+          <option value="”sp”">La Spezia</option>
+          <option value="”aq”">L’aquila</option>
+          <option value="”lt”">Latina</option>
+          <option value="”le”">Lecce</option>
+          <option value="”lc”">Lecco</option>
+          <option value="”li”">Livorno</option>
+          <option value="”lo”">Lodi</option>
+          <option value="”lu”">Lucca</option>
+          <option value="”mc”">Macerata</option>
+          <option value="”mn”">Mantova</option>
+          <option value="”ms”">Massa-Carrara</option>
+          <option value="”mt”">Matera</option>
+          <option value="”vs”">Medio Campidano</option>
+          <option value="”me”">Messina</option>
+          <option value="”mi”">Milano</option>
+          <option value="”mo”">Modena</option>
+          <option value="”mb”">Monza e della brianza</option>
+          <option value="”na”">Napoli</option>
+          <option value="”no”">Novara</option>
+          <option value="”nu”">Nuoro</option>
+          <option value="”og”">Ogliastra</option>
+          <option value="”ot”">Olbia-tempio</option>
+          <option value="”or”">Oristano</option>
+          <option value="”pd”">Padova</option>
+          <option value="”pa”">Palermo</option>
+          <option value="”pr”">Parma</option>
+          <option value="”pv”">Pavia</option>
+          <option value="”pg”">Perugia</option>
+          <option value="”pu”">Pesaro e Urbino</option>
+          <option value="”pe”">Pescara</option>
+          <option value="”pc”">Piacenza</option>
+          <option value="”pi”">Pisa</option>
+          <option value="”pt”">Pistoia</option>
+          <option value="”pn”">Pordenone</option>
+          <option value="”pz”">Potenza</option>
+          <option value="”po”">Prato</option>
+          <option value="”rg”">Ragusa</option>
+          <option value="”ra”">Ravenna</option>
+          <option value="”rc”">Reggio di calabria</option>
+          <option value="”re”">Reggio nell’emilia</option>
+          <option value="”ri”">Rieti</option>
+          <option value="”rn”">Rimini</option>
+          <option value="”rm”">Roma</option>
+          <option value="”ro”">Rovigo</option>
+          <option value="”sa”">Salerno</option>
+          <option value="”ss”">Sassari</option>
+          <option value="”sv”">Savona</option>
+          <option value="”si”">Siena</option>
+          <option value="”sr”">Siracusa</option>
+          <option value="”so”">Sondrio</option>
+          <option value="”ta”">Taranto</option>
+          <option value="”te”">Teramo</option>
+          <option value="”tr”">Terni</option>
+          <option value="”to”">Torino</option>
+          <option value="”tp”">Trapani</option>
+          <option value="”tn”">Trento</option>
+          <option value="”tv”">Treviso</option>
+          <option value="”ts”">Trieste</option>
+          <option value="”ud”">Udine</option>
+          <option value="”va”">Varese</option>
+          <option value="”ve”">Venezia</option>
+          <option value="”vb”">Verbano-cusio-ossola</option>
+          <option value="”vc”">Vercelli</option>
+          <option value="”vr”">Verona</option>
+          <option value="”vv”">Vibo valentia</option>
+          <option value="”vi”">Vicenza</option>
+          <option value="”vt”">Viterbo</option>
+      </select>
+    </div>
+      </div>  
+
+      <div>
+        <a class="btn btn-primary btn-lg" href="cerca.html" role="button">Cerca</a>
+      </div>
+    </div>
+     
+  </form>
+</div>
+    </main>
+    <footer>
+      <h3>Contatti</h3>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col">
+ 
+            <a class="iconasocial" href="mailto:bandmaker.info@gmail.com"><i class="fa-solid fa-envelope" style="color: #000000; padding-bottom: 30px; font-size: 200%;" ></i></a>
+            bandmaker.info@gmail.com
+          </div>
+          <div class="col">
+            
+            <a class="iconasocial" href="https://instagram.com/_bandmaker_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-square-instagram" style="color: #000000; padding-bottom:30px; font-size: 200%;;"></i></a>
+            IG: @_bandmaker_
+          </div>
+        </div>
+        <p id="testo_footer">*Il sito è realizzato per un progetto universitario e questa pagina ha solo una funzione illustrativa. I dati non verranno salvati.</p>
+      </footer>  
+      
+    </body>
+</html>

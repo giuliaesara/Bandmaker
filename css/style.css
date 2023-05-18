@@ -1,0 +1,389 @@
+
+body, html{margin: -15;}
+body {
+    font-family:'Quicksand';
+    text-align: center;
+    font-size: 100%;
+
+}
+
+header{
+    background-color: rgb(247, 246, 233);
+    width: 100%;
+    min-height: 85px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 400px;
+}
+
+main {
+    padding: 0px    
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: blanchedalmond;
+    text-align:justify;
+    margin: 100px;
+    font-size: 700%;
+
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    padding: 8px;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+p{
+    font-family: Quicksand;
+}
+
+nav ul li{
+    color: black;
+    padding: 10px 10px;
+    word-spacing: 50px;
+    border: 50px;   
+}
+
+ul{
+    padding-left: 400px !important;
+}
+
+li{
+    margin: 40px;
+}
+
+footer{
+    background-color: rgb(247, 246, 233);
+}
+
+
+.margin-login{
+    padding: 0px;
+    margin: 100px auto;
+}
+
+.active{
+    background-color: rgba(226, 79, 15, 0.644);
+    border-radius: 10px;
+}
+
+.grid{
+    border: 1px solid coral;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    margin: 0;
+}
+
+.col-100 {
+ width: 100%;
+ height: 700px;
+ background-color: rgb(241, 216, 178);
+ font-size: 20px;
+ padding: 50px 90px; 
+}
+
+.jumbotron{
+    background-color: rgba(247, 199, 154, 0.963); 
+    font-family:'Abril Fatface', cursive;
+    font-size: 20px;
+    padding: 50px 90px;
+    margin-bottom: 0px;  
+}
+
+.cover {
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+    height: auto;
+}
+
+.cover__content{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+
+.cover__content2{
+    position: relative;
+    top: 100px;
+}
+
+
+
+.nav__login {
+   display: inline-block;
+   position:absolute ;
+    top: 0;
+    right: 0;
+    background-color: rgb(236, 111, 8);
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-align: center;
+    color: black !important;
+    font-size: 120%;
+    padding: 0px;
+    border-left: 70px;
+}
+
+.navbar{
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    height: 90px;
+}
+
+.icon {
+    font-size: 20px;
+    background-color:rgb(236, 111, 8);
+    position: absolute;
+    padding: 17px 5px 10px 7px;    
+}
+
+.headerlogin {
+    margin: 0;
+}
+
+.iconasocial{
+    letter-spacing: 1em;
+}
+
+.form-control{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+form{
+    margin: 5% 10%;
+}
+
+.form-group{
+    margin: 50px;
+}
+
+.form-check-label{
+    display: flex;
+}
+
+.età{
+    margin: 5% 6.5% 5% 7%;
+}
+
+.titoli{
+    font-size: 150%;
+}
+
+.testo1{
+    color: blanchedalmond;
+    text-align:justify;
+    margin: 400px 100px;
+    font-size: 200%;
+}
+
+.main_cerca{
+    color: rgba(38, 36, 36, 0.973);
+    margin:0;
+    font-size: 40px;
+    text-align: center;   
+}
+
+.main_cerca_testo{
+    font-size: 20px;
+    padding-top: 0;
+}
+
+#header_cerca{
+    background-color: orange;
+    border-top: 10px;
+    padding: 40px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px;
+    line-height: 2.5em;
+}
+
+.logosito{
+    height: auto;
+    width: 150px;
+    display: inline-block;
+   position:absolute ;
+    top: 0;
+    left: 0;
+    margin: 20px;
+}
+
+.fotohome{
+    height: auto;
+    width: 600px;
+    border: 150px;
+    padding-top: 35px;
+}
+
+.parte3{
+    background-color: antiquewhite; 
+    font-family:'Abril Fatface', cursive;
+    font-size: 20px;
+    padding: 50px 90px;
+    width: 100%;
+    height: 800px;
+}
+
+.provincia{
+    padding-left: 400px;
+}
+
+#cosaaspetti{
+    font-weight: bold;
+}
+
+.bg-dark{
+    background-color: rgb(247, 246, 233)!important;
+}
+
+.fixed-top {
+    position: fixed;
+    border: 15px !important;
+    z-index: 1030;
+  }
+
+.btn{
+    background-color: rgb(243, 141, 58); 
+    font-family: Quicksand;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 150%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f66c09;
+    border-color: #01060b;
+    
+  }
+  
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f4ac05;
+    border-color: #020911;
+  }
+
+.btn-lg{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+#login-menu{
+   
+    margin-left: 150px;
+    margin-top: 45px;
+}
+#sfondo_registrazione {
+    height: 500px;
+    
+}
+#testo_footer{
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px){
+    .fotohome {
+        width: 250px;
+        height: auto;
+        text-align: center;
+
+    }
+    p{
+        font-size: 17px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .testo1{
+        margin: 220px 0px 15px 15px;
+        font-size: 15px;
+    }
+    .col-100 {
+        width: 100%;
+        height: 500px;
+        padding: 30px 70px;
+        margin: 5px;
+       }
+    .jumbotron{
+        padding: 30px 70px;
+        margin: 5px;
+    }
+    .parte3{
+        padding: 30px 70px;
+        margin: 5px;
+        width: 100%;
+        height: 500px;
+        background-color: darkorange;
+        background-image: none;
+    }
+    h3{
+        font-size: 20px;
+    }
+    
+   .provincia{
+    padding-left:0;
+   }
+ 
+   input{
+    padding-left: 70px;
+   }
+   
+   .logosito {
+    height: auto;
+    width: 120px;
+    display:inline-block;
+   border-left: 100px;
+   left: 260px;
+   }
+
+    ul{
+        padding-left: 0px !important;
+        background-color:  rgb(247, 246, 233);
+    }
+    .btn{
+        background-color: rgb(243, 141, 58); 
+        font-family: Quicksand;
+        padding: 10px;
+        margin-top: 20px; 
+    }
+    #login-menu{
+        margin-left: 80px;
+    }
+    
+    .form-check-input {
+        position: absolute;
+        margin-top: .3rem;
+        margin-left: 2rem;
+      }
+}
