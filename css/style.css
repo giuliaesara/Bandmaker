@@ -309,7 +309,7 @@ form{
 }
 .testo_documentazione {
     text-align: justify;
-    padding: 30px;
+    padding: 20px;
 }
 .elenchi_documentazione {
     padding-left: 0px !important;
@@ -318,7 +318,15 @@ form{
 .iscritto_esempio{
    margin: 30px;
     background-color: #f2bc3d57;
-
+}
+.wireframe{
+   width: 90%;
+   padding-left: 80px;
+    
+}
+.dati{
+    height: 350px;
+    padding: 40px;
 }
 @media (max-width: 768px){
     .fotohome {
@@ -400,5 +408,11 @@ form{
       }
       .elenchi_documentazione {
         background-color: white;
+    }
+    #titolo_documentazione {
+        font-size: 30px;
+    }
+    #visualizzazioni {
+        height: 250px;  
     }
 }
